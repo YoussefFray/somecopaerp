@@ -1,0 +1,301 @@
+body{
+margin: 0px;
+padding: 0px;
+
+}
+.r{
+width: 17px;
+height: 17px;
+background-color: red;
+border-radius: 100%;
+color: white;
+transform:translate(1274px,-708px) ;
+text-align: center;
+}
+p{
+    text-decoration: none;
+}
+.nav{
+    height: 67px;
+    width: 100%;
+    box-shadow:  0 8px 6px -6px gray; 
+   
+}
+.name{
+width: 100px;
+display: inline-block;
+font-family: "Times New Roman", Times, serif;
+font-size: large;
+font-weight: bold;
+transform:translate(69px,-27px) ;
+
+
+}
+img[src="img/icon.png"]{
+    transform: translate(57px,-18px);
+}
+img[src="img/icon.png"]:hover{
+    cursor: pointer;
+}
+img[src="img/logout.png"]{
+    transform:translate(134px,-18px) ;
+}
+img[alt="pdp"]{
+    width :35px ;
+    margin-left: 20px;
+    margin-top: 20px;
+    transform: translate(65px,-12px) ;
+    border-radius: 10px;
+}
+img[src="img/FinalSomecopaLogo.svg"]{
+width :180px ;
+margin-left: 10px;
+}
+#icons{
+    display: inline-flex;
+    flex-wrap: wrap;
+    margin-left:15%;
+    margin-right:15%;
+}
+
+.iconRh {
+    fill: white ;
+   padding: 25%;
+   }
+.rh {
+   border-radius: 25px;
+   background-image: linear-gradient( 135deg, #FF6FD8 10%, #3813C2 100%);
+   height: 100px;
+   width: 100px;
+   padding: 20px;
+   margin: 40px;
+
+ 
+   }  
+.gs {
+    border-radius: 25px;
+    background-image: linear-gradient( 135deg, #FFF720 10%, #3CD500 100%); 
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 40px;
+    }
+.iconGs{
+    fill: white ;
+    padding: 25%;
+    }
+.ventes{
+    border-radius: 25px;
+    background-image: linear-gradient( 135deg, #FF96F9 10%, #C32BAC 100%);
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 40px;
+}
+.iconVentes{
+    fill: white ;
+    padding: 25%;
+    }
+.msg{
+    border-radius: 25px;
+    background-image: linear-gradient(315deg, #485461 0%, #28313b 74%); 
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 40px;
+}
+.iconMsg{
+    fill: white ;
+    padding: 25%;
+}
+.doc{
+    border-radius: 25px;
+    background-image: linear-gradient( 135deg, #FDEB71 10%, #F8D800 100%);
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 40px;
+}
+.iconDoc{
+    fill: white ;
+    padding: 25%;
+}
+.notification{
+    border-radius: 25px;
+    background-image: linear-gradient( 135deg, #6B73FF 10%, #000DFF 100%);
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 40px;
+}
+.iconNotification{
+    fill: white ;
+    padding: 25%;
+    width:54px ;
+    height: 54px;
+}
+.notes{
+    border-radius: 25px;
+    background-color:#3f0d12;
+    background-image: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);  
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 40px;
+}
+.iconNotes{
+    fill: white ;
+    padding: 25%;
+    width:54px ;
+    height: 54px;
+}
+
+.depenses{
+    border-radius: 25px;
+    background-color: #0cbaba;
+    background-image: linear-gradient(315deg, #0cbaba 0%, #380036 74%);     
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 40px;
+}
+.iconDepenses{
+    fill: white ;
+    padding: 25%;
+    width:54px ;
+    height: 54px;
+}
+.graphiques{
+    border-radius: 25px;
+    background-image: linear-gradient( 135deg, #FDD819 10%, #E80505 100%);
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 40px;
+}
+.iconGraphiques{
+    fill: white ;
+    padding: 25%;
+    width:54px ;
+    height: 54px;
+}
+.contacts{
+    border-radius: 25px;
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+    height: 100px;
+    width: 100px;
+    padding: 20px;
+    margin: 40px;
+}
+.iconContacts{
+    fill: white ;
+    padding: 25%;
+    width:54px ;
+    height: 54px;
+}
+p {
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    }
+ /* @media (prefers-color-scheme: light) {
+     
+        body {
+          background: #f9f9f9;
+        }
+        .nav {
+          background: #fff;
+        }
+      }
+@media (prefers-color-scheme: dark) {
+        
+         body {
+          background: #1f1b24;
+        }
+        .nav {
+          background:#100E17;
+        }
+        p{
+          color:white ;
+        }
+      } */
+
+      input[type=text] {
+        width: 130px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        font-size: 16px;
+        background-color: white;
+        background-image: url('../img/searchicon.png');
+        background-position: 10px 10px; 
+        background-repeat: no-repeat;
+        padding: 12px 20px 12px 40px;
+        background-size :25px ;
+        width: 750px;
+        transform: translate(27px,-25px) ;
+      }
+      @media only screen and (max-width: 1010px) {
+        input[type=text] {
+            width: auto;
+
+        }
+      }
+      @media only screen and (max-width: 650px) {
+        input[type=text] {
+            display: none;
+        }
+        .name{
+            display: none;
+        }
+        img[alt="pdp"]{
+            transform: translate(-12px,-12px);
+        }
+        img[src="img/logout.png"]{
+            transform: translate(13px,-18px);
+        }
+      }
+     .n{
+width: 260px;
+height: 400px;
+z-index: 9;
+float: right;
+margin-top: -647px;
+background-color: whitesmoke;
+margin-right: 13px;
+box-shadow: 10px 10px 5px grey;
+display:none;
+padding: 12px;
+
+     }
+     .button {
+        background-color: #4CAF50; /* Green */
+        border: none;
+        color: white;
+        padding: 16px 32px;
+        text-align: center;
+        text-decoration: none;
+        font-size: 16px;
+        margin: 4px 2px;
+        transition-duration: 0.4s;
+        cursor: pointer;
+        float: right;
+        margin-top: 340px;
+      }
+      .button5 {
+        background-color: white;
+        color: black;
+        border: 2px solid #555555;
+      }
+      
+      .button5:hover {
+        background-color: #555555;
+        color: white;
+      }      
+
+
+
+
+
+
+
